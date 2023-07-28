@@ -40,7 +40,7 @@ SECRET_KEY = (
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','ecs193-deploy-test.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','genomics-human-browser-e8d9790396cf.herokuapp.com']
 # ALLOWED_HOSTS = ['*']
 
 
