@@ -1,4 +1,29 @@
-# Setup Tutorial
+# Testing Upload on Demo Website
+
+## Acquire Access from Admin
+User won't be able to access the resources even after you make an account on login screen.\
+Whether before or after you make an account, once admin user add your email to the user management, user will obtain an authoritiy to access resources.
+
+## Test Upload
+Make sure there is no same dataset was uploaded by other users.\
+Our system updates the dataset when same file name was upload. Thus, it might hard to identify whether the upload was processed properly.\
+Use below files to test uploading dataset.\
+[File Type 1](https://github.com/Carmona-MoraUCD/Human-Genomics-Browser/blob/main/sample_data/ranking_csv_check.csv)\
+[File Type 1 - Different patient code](https://github.com/Carmona-MoraUCD/Human-Genomics-Browser/blob/main/sample_data/diff_code_na.csv)\
+[File Type 2](https://github.com/Carmona-MoraUCD/Human-Genomics-Browser/blob/main/sample_data/dataset_type2_3pats.csv)\
+Once user download the file, access to the upload page.\
+Use the reference below to fill out the information on that page before click on the submit button:
+```
+Dataset CSV File Upload - Choose the file downloaded
+Description ------------- Optional. Used for describing what the dataset is for
+URL --------------------- Optional. If the original raw dataset is shared in shared drive services, it can be post in here
+Dataset Row Type -------- Used for the system to identify the dataset type. File Type 1 is "patient". File Type 2 is "gene"
+Gene Code --------------- Required when dataset row type is "gene". It will be "ENSG" for test dataset
+Patient Code ------------ Required when dataset row type is "patient". It will be "UCDSS" for "File Type 1" and "AAUCD" for "File Type 1 - Different patient code"
+```
+Once user upload the data and the processed successfully on server, changes will appear on gene / dataset pages.
+
+# For Development - Setup Guide
 
 ## Preparing Keys
 
