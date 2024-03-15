@@ -1,3 +1,6 @@
+# Demo Usage Video
+[Demo](https://youtu.be/N6hD3TYlTgg)
+
 # Testing Upload on Demo Website
 
 ## Acquire Access from Admin
