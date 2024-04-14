@@ -1,8 +1,18 @@
+# Introduction
+
+This is the source code for developers and readme for users of the web app, described here: https://zenodo.org/doi/10.5281/zenodo.10426520
+("A customizable secure DIY web application for accessing, sharing, and browsing aggregate experimental results and metadata").
+
+The web app was conceived as a way to share aggregated results, browse data in progress, and all the information that is key for analysis, including location or any other features from tabular data or metadata, but that is publicly unshareable due to their work-in-progress or sensitive nature. Therefore, such information must be accessible for authorized users only. The web application allows researchers to share and record tabular data, while interacting in different ways, such as bookmarking, and linking to external open knowledgebases. 
+
+Our code was designed to be customizable, so our platform can be replicated from the code by anyone, in the same form to use in any discipline, or it can be linked to different databases or allowing different features, which represents a no- to low-cost DIY platform. Researchers can access this code to re-create their own platform, adding authorized users through their own login system. Our application can facilitate data and metadata access, which is especially useful for scholarly writing processes, as the information from a research team will be accessed mostly through the application, in lieu to scattered information in an array of files or third-party storage services. 
+
+
 # Testing Upload on Demo Website
 
 ## Acquire Access from Admin
-User won't be able to access the resources even after the user create an account on the login screen.\
-Whether before or after you create an account, once admin user add your email to user management, user will get an authority to access resources.
+User will not be able to access the resources even after the user creates an account on the login screen.\
+Whether before or after you create an account, once admin user adds your email to user management, user will get an authority to access resources.
 
 ## Test Upload
 Make sure that the same dataset has not been uploaded by other users.\
@@ -20,7 +30,7 @@ Description ------------- Optional. Used for describing what the dataset is used
 URL --------------------- Optional. If the original raw dataset is shared in shared drive services and has a shared link, it can be posted here.
 Dataset Row Type -------- Used for the system to identify the dataset type. File Type 1 is "patient". File Type 2 is "gene"
 Gene Code --------------- Required when dataset row type is "gene". It will be "ENSG" for "File Type 2".
-Patient Code ------------ Required when dataset row type is "patient". It will be "UCDSS" for "File Type 1" and "AAUCD" for "File Type 1 - Different patient code"
+Patient Code (sample ID) ------------ Required when dataset row type is "patient or sample". 
 ```
 Once the user uploads the data and it is successfully processed on the server, changes will appear on the gene/dataset pages.
 
