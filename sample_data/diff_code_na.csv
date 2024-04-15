@@ -1,4 +1,4 @@
-,Sample name,Age At Onset,Diabetes,Final Diagnosis,Gender,HospID,Hypercholesterolemia,Hypertension,Ischemic stroke/ TIA cause,Race,Sample,Time in hours Since Event,ENSG00000000421.6,ENSG00000000003.14,ENSG00000000420.6
-0,AAUCD-1000,55,No,Ischemic Stroke,Male,UCDSS 1000,No,Yes,Large vessel disease,Latino,UCDSS_1000_b,22.35,0.094027,1.49806e-06,1.0432
-1,AAUCD-1009,66,No,Control,Male,UCDSS 1009,No,7,Vascular risk factors,Other,UCDSS_1009,0.0,2.5757,1.4805e-06,5.32498
-2,AAUCD-1014,44,No,Stroke,Female,UCDSS 1014,Yes,No,Large Vascular risk factors,White,UCDSS_1009,0.0,0.1111,3.3,0.121522
+,Sample name,Age At Onset,Diabetes,Final Diagnosis,Hypercholesterolemia,Hypertension,Ischemic stroke/ TIA cause,Time in hours Since Event,ENSG00000000421.6,ENSG00000000003.14,ENSG00000000420.6
+0,ABC-1,55,No,Ischemic Stroke,No,Yes,Large vessel disease,22.35,0.094027,1.49806e-06,1.0432
+1,ABC-2,66,No,Control,No,7,Vascular risk factors,0.0,2.5757,1.4805e-06,5.32498
+2,ABC-3,44,No,Stroke,Yes,No,Large Vascular risk factors,0.0,0.1111,3.3,0.121522
